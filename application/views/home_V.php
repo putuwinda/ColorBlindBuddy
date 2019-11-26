@@ -52,7 +52,7 @@
             <img src="https://icon-icons.com/icons2/1918/PNG/128/iconfinder-document03-1622833_121957.png">
           </span>
           <h4>
-            <strong>Color Blind Test</strong>
+            <a href="<?php echo site_url('Colorblindtest/index') ?>"><strong>Color Blind Test</strong></a>
           </h4>
           <p class="text-faded mb-0">Check if you're colorbinded or not by answering questions!</p>
         </div>

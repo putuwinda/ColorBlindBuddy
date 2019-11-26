@@ -7,7 +7,7 @@
   </head>
   <body>
     <nav class="navbar sticky-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="" style="color: white" id="home">Home</a>
-      <a class="navbar-brand" href="#feature" style="color: white" id="feature">Feature</a>
+      <a class="navbar-brand" href="<?php echo base_url() ?>" style="color: white" id="home">Home</a>
+      <a class="navbar-brand" href="<?php echo site_url('home/index/#feature') ?>" style="color: white" id="feature">Feature</a>
       <a class="navbar-brand" href="" style="color: white" id="login">Login</a>                
     </nav>
