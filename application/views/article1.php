@@ -50,7 +50,7 @@
   <!-- Heading Row -->
   <div class="row align-items-center my-5">
     <div class="col-lg-7">
-      <img class="img-fluid rounded mb-4 mb-lg-0" src="img3.png" alt="" style="max-width: 100%;">
+      <img class="img-fluid rounded mb-4 mb-lg-0" src="https://s3.amazonaws.com/www-inside-design/uploads/2018/11/colorblind-design-hero-1-810x810.jpg" alt="" style="max-width: 90%;">
     </div>
     <!-- /.col-lg-8 -->
     <div class="col-lg-5">
@@ -65,45 +65,62 @@
   <div class="card text-white bg-secondary my-5 py-4 text-left">
     <div class="card-body">
       <p class="text-white m-0" >
+        <p>About 4% of the population has some form of color blindness. One in 12 men and 1 in 200 women are color blind and face challenges with a lot of online products like websites, apps, games, and webshops in their daily life.
+          <br>
+          Thankfully, designing for the colorblind doesn’t have to be difficult. And best of all, designing with the colorblind in mind will also improve your design for everyone.
+          </p>
+          <br>
+          <b>How does color blindness work?</b>
+          <br>
+          <p>
+            To see, we need light to hit the retina at the back of our eyes. The retina is made up of photoreceptors: rods and cones. The rods are sensitive to light while the cones pick up color.
+            <br>
+            Each of the cones is carrying one out of three different photopigments—red, green, and blue—and reacts differently to colored light. Mixing together the information of those three different types of cones makes up our color vision.
+            <br>
+            When one type of cones malfunctions, the color this cone would normally absorb is altered. This changes your color perception, resulting in what we call color blindness.
+            <br>
+            The three types of cones translate into three main types of color blindness: Deuteran (green), Protan (red), and Tritan (blue).
+          </p>
+          <b>What do the colorblind see?</b>
 
-        <p >The colorblind don’t see the world in black and white, they can see color, but they a narrowed color perception. Colors lie closer to each other and are not as vibrant or bright as someone who isn’t color blind would see it.
+          <br>
+          <p>First of all, the colorblind do see color. Green is still green and red stays red, but not as vibrant or bright as someone who’s not color blind would see it.
+            <br>
+            For the colorblind, colors lie closer to each other and tend to blend together more.
+            <br>
+            <img src="https://i.pinimg.com/236x/5c/1a/a0/5c1aa094956501b3ff5f133355d2dab6.jpg" alt="colorblind types" style="max-width:200%;">
+            <br>
+            <br>
+            <b>Designing for the colorblind</b>
+            <br>
+            There’s a big difference between not being able to distinguish between two colors and not being able to use an interface because you can’t distinguish between two colors. The difference is design, someone designed the interface to rely on color alone.
+            <br>
+            As designers, we should take into account that there are many people that don’t see the way most people do. Thankfully, designing for the colorblind doesn’t have to be difficult. There are a couple of simple principles you can use to make your design much more accessible.
+            <br>
+            <br>
+            <b>Two simple rules about contrast and color</b>
+            <br>
+            First, good contrast helps a lot. The more contrast, the better the colorblind can see the difference between the two items.
+            <br>
+            Second, never use color alone to convey information or indicate action. Always provide alternatives in the form of text, icons, or other indicators.
+            <br>
+            <br>
+            <b>Designing for the colorblind will reward everyone</b>
+            <br>
+            Including the colorblind into your process is great, but as designers, we should take into account that there are many more people that don’t see or interact the way most people do.
+            <br>
+            <br>
+            <b>A good design is inclusive and works for everyone in every situation.</b>
+            <br>
+            And right now, there are many different situations. We are no longer just using our websites from behind a desk, with the curtains drawn, reading from a big, well-lit screen. We use phones and tablets outside of these rooms with perfect conditions.
+            <br>
+            People walk around, navigating on their phone with sunlight reflecting on their screen. On a moving train, we try to keep the focus on the finger-smudged screens of our shaking tablets. Or be in a hurry to text someone back with just 2% battery left. And then there’s those with cracks in their screens–so big, but miraculously still working.
+            <br>
 
-To give you an idea about what the colorblind see, we’ve collected different simulated images to give you an idea.
-<br>
-<br>
-<b>Problematic colors</b>
-<br>
-Each type of color blindness has their own problematic colors.
-<br>
-<b>Green (deuteran) color blindness</b>
-The green-weak (Deuteranomaly) and green-blind (Deuteranopia) colorblind have problems with any color that has some green in it.
-<br>
-<b>Red (protan) color blindness</b>
-<p>The red-weak (Protanomaly) and green-blind (Protanopia) colorblind have problems whenever a color has some red in it.</p>
+          </p>
 
-<b>Blue (tritan) color blindness</b>
-<p>The blue-weak (Tritanomaly) and blue-blind (Tritanopia) colorblind have problems seeing the color blue. This is the rarest form of color blindness and you might say it alters the color perception the most.</p>
-<br>
-<b>Color blindness simulations</b>
-<p>Here’s a collection of different simulated images to give you an idea about what the colorblind see. These simulations are meant to give an impression of how different situations might look like when you’re color blind.</p>
-<br>
-<b>Architecture: colorful buildings</b>
-<br>
-<p>Cities can be very beautiful, especially those with brightly colored buildings. They can still be beautiful for the colorblind, but less colorful than you would imagine.</p>
-
-<b>Green-blind (Deuteran) color blindness</b>
-<br>
-<img src="green.png" alt="" style="max-width: 50%;">
-<br>
-<b>Red-blind (Protan) color blindness</b>
-<br>
-<img src="red.png" alt="" style="max-width: 50%;">
-<br>
-<b>Blue-blind (Tritan) color blindness</b>
-<br>
-<img src="blue.png" alt="" style="max-width: 50%;">
-</p>
       </p>
+
 
     </div>
   </div>
