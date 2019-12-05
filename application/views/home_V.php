@@ -45,7 +45,9 @@
             <img src="<?php echo base_url()?>assets/img/colordetect.png">
           </span>
           <h4>
+            <a href="<?php echo base_url('') ?>index.php/findcolor_C">
             <strong>Color Finder</strong>
+            </a>
           </h4>
           <p class="text-faded mb-0">Upload an image and tell us what do you want to find!</p>
         </div>
