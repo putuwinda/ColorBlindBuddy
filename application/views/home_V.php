@@ -31,10 +31,10 @@
       <div class="row" style="color: black">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" id="colordetector">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src="https://icon-icons.com/icons2/1492/PNG/128/art-pallete_102830.png">
+            <img src="<?php echo base_url()?>assets/img/colordetect.png">
           </span>
           <h4>
-            <a href=href="<?php echo base_url('') ?>index.php/specifycolor_C">
+            <a href="<?php echo base_url('') ?>index.php/specifycolor_C">
             <strong>Color Detector</strong>
             </a>
           </h4>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" id="colorfinder">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src ="<?php echo base_url()?>assets/img/colordetect.png">
+            <img src="<?php echo base_url()?>assets/img/colordetect.png">
           </span>
           <h4>
             <strong>Color Finder</strong>
@@ -60,7 +60,7 @@
         </div>
         <div class="col-lg-3 col-md-6" id="quizzes">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src="https://icon-icons.com/icons2/1805/PNG/128/4230548-confusion-doubt-frustration-question_115011.png">
+            <img src="<?php echo base_url()?>assets/img/exam.png">
           </span>
           <h4>
             <strong>Quizzes</strong>
@@ -71,7 +71,7 @@
       <div class="row" style="color: black">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" id="colorharmony">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src="https://icon-icons.com/icons2/624/PNG/128/RGB_Circle_1-80_icon-icons.com_57282.png">
+            <img src="<?php echo base_url()?>assets/img/lifesaver.png">
           </span>
           <br/>
           <h4>
@@ -103,7 +103,7 @@
         <div class="col-lg-3 col-md-6" id="eyedoctor">
           <span class="service-icon rounded-circle mx-auto mb-3">
           </br>
-            <img src="https://icon-icons.com/icons2/1393/PNG/128/eye-3_96721.png">
+            <img src="<?php echo base_url()?>assets/img/location.png">
           </span>
           <h4>
             <br/>

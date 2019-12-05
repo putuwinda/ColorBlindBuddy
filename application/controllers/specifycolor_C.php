@@ -14,7 +14,4 @@ class specifycolor_C extends CI_Controller {
  	}
 }
 
-
-
-
  ?>

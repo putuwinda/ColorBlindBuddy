@@ -12,7 +12,7 @@
           <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
           <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
           <link rel="stylesheet" href="#">
-    <script type="text/javascript" language="javacript" src="specifycolor.js.js"></script>
+    <script type="text/javascript" language="javacript" src="<?php echo base_url()?>assets/js/specifycolor.js"></script>
     <title> COLOR IDENTIFY </title>
 
   </head>
