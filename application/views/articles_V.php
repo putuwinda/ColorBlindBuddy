@@ -16,7 +16,7 @@
 
   </head>
   <body>
-    <!-- Navigation -->
+    <!--
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#">ColorBlind Buddy</a>
@@ -43,6 +43,7 @@
     </div>
   </div>
 </nav>
+-->
 
 <!-- Page Content -->
 <div class="container"  style="color-background:#d7ccc8">
@@ -56,18 +57,19 @@
     <div class="col-lg-5">
       <h1 class="font-weight-light" style="font-size:50px">Designing with the Colorblind in Mind will improve your Design for Everyone</h1>
       <p>Designing for the colorblind doesn’t have to be difficult. And best of all, designing with the colorblind in mind will also improve your design for everyone</p>
-      <a class="btn btn-primary" href="#"> see more </a>
+      <a class="btn btn-primary" href="<?php echo base_url('') ?>index.php/articles_C/view_article1"> see more </a>
     </div>
     <!-- /.col-md-4 -->
   </div>
   <!-- /.row -->
 
-  <!-- Call to Action Well -->
+  <!--
   <div class="card text-white bg-secondary my-5 py-4 text-center">
     <div class="card-body">
       <p class="text-white m-0">tagline tagline</p>
     </div>
   </div>
+-->
 
   <!-- Content Row -->
   <div class="row">
@@ -79,7 +81,7 @@
           <p class="card-text" style="font-size:15px">Color blindness is an often misunderstood condition. Many assume because of its name that “color blind” means a person can only see in black and white. In actuality, the vast majority of people with color blindness do see color, but they see a much narrower range of color.</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-primary btn-sm">see more</a>
+          <a href="<?php echo base_url('') ?>index.php/articles_C/view_article2" class="btn btn-primary btn-sm">see more</a>
         </div>
       </div>
     </div>
@@ -92,20 +94,20 @@
           <p class="card-text" style="font-size:15px">A long time ago I was over for dinner at my grandparents. I was helping my grandfather to set the table and he told me to get the green plates from the cupboard. I grabbed them and put them on the table. My grandmother overheard this from the other room and came in – quite confused – to ask were on earth I got the green plates from. Apparently the green plates were blue.</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-primary btn-sm">see more</a>
+          <a href="<?php echo base_url('') ?>index.php/articles_C/view_article3" class="btn btn-primary btn-sm">see more</a>
         </div>
       </div>
     </div>
     <!-- /.col-md-4 -->
     <div class="col-md-4 mb-5">
       <div class="card h-100">
-        <img src="img3.png" class="card-img-top" alt="...">
+        <img src="https://wearecolorblind.com/wp-content/uploads/2018/10/quick-intro-postimage.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h2 class="card-title" style="font-size:20px">A Quick Introduction to Color Blindness</h2>
           <p class="card-text" style="font-size:15px">About 4% of the population has some form of color blindness. In this article we’ll take a look at the basics of how color blindness works..</p>
         </div>
         <div class="card-footer">
-          <a href="#" class="btn btn-primary btn-sm">see more</a>
+          <a href="<?php echo base_url('') ?>index.php/articles_C/view_article4" class="btn btn-primary btn-sm">see more</a>
         </div>
       </div>
     </div>

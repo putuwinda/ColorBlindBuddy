@@ -9,14 +9,14 @@
       <div class="container" style="width: 700px; height: 650px; background-image: url('https://i.pinimg.com/originals/96/16/71/961671a0d15c33d419b8364e1345ccd2.png'); background-size: 100% 100%">'
         <div class="container" style="margin-top: 200px ;width: 500px; height: 250px;">
           <h2>We're ready to help you!</h2>
-            Color is one of the most important things in human’s life which defines the characteristics of an image. Unfortunately, not all people can see the difference between these colors. 
+            Color is one of the most important things in human’s life which defines the characteristics of an image. Unfortunately, not all people can see the difference between these colors.
             Are you one of them?
             Then you are in the right place!
-            We offer this app to solve your problem, and make you see the difference in the colors easily. 
+            We offer this app to solve your problem, and make you see the difference in the colors easily.
           </div>
         </div>
     </section>
-    <section style="background-image: linear-gradient(#7AB3B0, #ddb075)">  
+    <section style="background-image: linear-gradient(#7AB3B0, #ddb075)">
       <br/>
       <br/>
     </section>
@@ -34,13 +34,15 @@
             <img src="https://icon-icons.com/icons2/1492/PNG/128/art-pallete_102830.png">
           </span>
           <h4>
+            <a href=href="<?php echo base_url('') ?>index.php/specifycolor_C">
             <strong>Color Detector</strong>
+            </a>
           </h4>
           <p class="text-faded mb-0">Upload your image and let us tell you the color!</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" id="colorfinder">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src ="https://icon-icons.com/icons2/1393/PNG/128/-color-4_96736.png">
+            <img src ="<?php echo base_url()?>assets/img/colordetect.png">
           </span>
           <h4>
             <strong>Color Finder</strong>
@@ -49,7 +51,7 @@
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0" id="colorblindtest">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src="https://icon-icons.com/icons2/1918/PNG/128/iconfinder-document03-1622833_121957.png">
+            <img src="<?php echo base_url()?>assets/img/colordetect.png">
           </span>
           <h4>
             <a href="<?php echo site_url('Colorblindtest/index') ?>"><strong>Color Blind Test</strong></a>
@@ -79,16 +81,19 @@
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" id="articles">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src="https://icon-icons.com/icons2/516/PNG/128/read_book_study_icon-icons.com_51077.png">
+            <img src="<?php echo base_url()?>assets/img/read_book.png">
           </span>
           <h4>
-            <strong>Articles</strong>
+            <a href="<?php echo base_url('') ?>index.php/articles_C">
+                <strong>Articles</strong>
+            </a>
+
           </h4>
           <p class="text-faded mb-0">Increase your knowledge about colorblind!</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0" id="clothingguide">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src="https://icon-icons.com/icons2/1794/PNG/128/shirt_114788.png">
+            <img src="<?php echo base_url()?>assets/img/shirt.png">
           </span>
           <h4>
             <strong>Style Me Up</strong>
