@@ -6,7 +6,6 @@ class home extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('home_V');
-		$this->load->view('footer');
 	}
 }
 ?>

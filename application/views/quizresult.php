@@ -33,13 +33,10 @@
 			         array_push($array5, $res->choice1); 
 			         array_push($array6, $res->choice2); 
 			         array_push($array7, $res->choice3); 
-                     array_push($array8, $res->correctanswer); 
-                     array_push($array9, $res->explanation);
+               array_push($array8, $res->correctanswer); 
+               array_push($array9, $res->explanation);
 			   } ?>
-               
-               
-           <?php 
-		       for ($x=0; $x <8; $x++) { ?>
+        <?php for ($x=0; $x <8; $x++) { ?>
  
     <form class="card" style = "width:30cm; background-color: transparent;margin:auto" method="post" action="<?php echo base_url();?>index.php/quiz/quizdisplay">  
   

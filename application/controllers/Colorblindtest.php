@@ -9,67 +9,45 @@ class Colorblindtest extends CI_Controller {
 	
 	public function index()
 	{
+		$this->load->helper('form');
 		$this->load->view('header');
+		$this->load->model('testmodel');
+		$this->data['answer'] = $this->testmodel->getAnswer();
 		$this->load->view('test_V');
     }
-    public function cbtest(){
-		// $i = 0;
-		// $this->db->query("SELECT ANSWER FROM COLORBLINDTEST;");
-		// foreach ($query->result_array() as $row){
-		// 		$correct[i] = $row['title'];
-		// 		$i=$i+1;
-		// }
-		$colorblindtest = $this->db
-        ->select("answer")
-        ->get("colorblindtest")
-        ->row();
-		$correct = $this->db->get('colorblindtest')->row_array();
-		
-		$answer = [];
-		$answer[0]= document.getElementById("ans1").innerHTML;
-		// $answer[1]= document.getElementById("ans2").innerHTML;
-		// $answer[2]= document.getElementById("ans3").innerHTML;
-		// $answer[3]= document.getElementById("ans4").innerHTML;
-		// $answer[4]= document.getElementById("ans5").innerHTML;
-		// $answer[5]= document.getElementById("ans6").innerHTML;
-		// $answer[6]= document.getElementById("ans7").innerHTML;
-		// $answer[7]= document.getElementById("ans8").innerHTML;
-		// $answer[8]= document.getElementById("ans9").innerHTML;
-		// $answer[9]= document.getElementById("ans10").innerHTML;
-		// $answer[10]= document.getElementById("ans11").innerHTML;
-		// $answer[11]= document.getElementById("ans12").innerHTML;
-		// $answer[12]= document.getElementById("ans13").innerHTML;
-		// $answer[13]= document.getElementById("ans14").innerHTML;
-		// $answer[14]= document.getElementById("ans15").innerHTML;
-		// $answer[15]= document.getElementById("ans16").innerHTML;
-		// $answer[16]= document.getElementById("ans17").innerHTML;
-		// $answer[17]= document.getElementById("ans18").innerHTML;
-		// $answer[18]= document.getElementById("ans19").innerHTML;
-		// $answer[19]= document.getElementById("ans20").innerHTML;
-		// $answer[20]= document.getElementById("ans21").innerHTML;
-		// $answer[21]= document.getElementById("ans22").innerHTML;
-		// $answer[22]= document.getElementById("ans23").innerHTML;
-		// $answer[23]= document.getElementById("ans24").innerHTML;
-		// $answer[24]= document.getElementById("ans25").innerHTML;
-		
-		$i=0;
-		$right=0;
-		while(i<2){
-			if($answer[i]==$correct[i]){
-				$right=$right+1;
-			} 
-			$i=$i+1;
-		}
-		$iscolorblind;
-		if ($right/$wrong > 0.5){
-			$iscolorblind = "normal";
-		} elseif ($right/$wrong==0.5) {
-			$iscolorblind = "partially colorblinded";
-		} else {
-			$iscolorblind = "colorblinded";
-		}
-		// alert("You got "+$right+" right answer out of 25. You are "+$iscolorblind);
-		$this->session->set_flashdata('info',$iscolorblind);
+    public function testresult(){
+		$this->load->helper('form');
+		$this->data['checks'] = array(
+			'answ1' => $this->input->post('ans1'),
+			'answ2' => $this->input->post('ans2'),
+			'answ3' => $this->input->post('ans3'),
+			'answ4' => $this->input->post('ans4'),
+			'answ5' => $this->input->post('ans5'),
+			'answ6' => $this->input->post('ans6'),
+			'answ7' => $this->input->post('ans7'),
+			'answ8' => $this->input->post('ans8'),
+			'answ9' => $this->input->post('ans9'),
+			'answ10' => $this->input->post('ans10'),
+			'answ11' => $this->input->post('ans11'),
+			'answ12' => $this->input->post('ans12'),
+			'answ13' => $this->input->post('ans13'),
+			'answ14' => $this->input->post('ans14'),
+			'answ15' => $this->input->post('ans15'),
+			'answ16' => $this->input->post('ans16'),
+			'answ17' => $this->input->post('ans17'),
+			'answ18' => $this->input->post('ans18'),
+			'answ19' => $this->input->post('ans19'),
+			'answ20' => $this->input->post('ans20'),
+			'answ21' => $this->input->post('ans21'),
+			'answ22' => $this->input->post('ans22'),
+			'answ23' => $this->input->post('ans23'),
+			'answ24' => $this->input->post('ans24'),
+			'answ25' => $this->input->post('ans25'),
+	   );
+		$this->load->model('testmodel');
+		$this->data['answer'] = $this->testmodel->getAnswer();
+		$this->load->view('header');
+		$this->load->view('testresult_V', $this->data);
 	}
 	// public function enable_disable1() { 
 	// 	document.getElementById("ans1").disabled = true;

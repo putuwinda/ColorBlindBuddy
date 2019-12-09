@@ -6,12 +6,6 @@ class quiz extends CI_Controller {
 		parent::__construct();
 		$this->load->database();
 	}
-
-	// public function index()
-	// {
-	// 	$this->load->view('header');
-	// 	$this->load->view('quiz_V');
-	// }
 	
 	public function quizdisplay()
 	{
