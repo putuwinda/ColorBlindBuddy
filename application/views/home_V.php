@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<head>
+  <title>ColorBlind Buddy: An Aid For The Colorblind</title>
+</head>
+
     <section style="background-color: #7AB3B0; height: 600px">
       <h1 class="site-heading text-center text-Black d-none d-lg-block" style="height: 30px;">
         <br/>
@@ -56,7 +60,7 @@
             <img src="<?php echo base_url()?>assets/img/colordetect.png">
           </span>
           <h4>
-            <a href="<?php echo site_url('Colorblindtest/index') ?>"><strong>Color Blind Test</strong></a>
+            <a style="color:black" href="<?php echo site_url('index.php\Colorblindtest');?>"><strong>Color Blind Test</strong></a>
           </h4>
           <p class="text-faded mb-0">Check if you're colorbinded or not by answering questions!</p>
         </div>
@@ -65,7 +69,7 @@
             <img src="<?php echo base_url()?>assets/img/exam.png">
           </span>
           <h4>
-            <strong>Quizzes</strong>
+          <a style="color:black" href="<?php echo site_url('index.php\quiz\quizdisplay');?>"><strong>Quizzes</strong></a>
           </h4>
           <p class="text-faded mb-0">We want to know how much you know about colorblind!</p>
         </div>
@@ -116,6 +120,18 @@
       </div>
     </div>
   </section>
+  </section>
+  <section style="background-image: linear-gradient(#ddb075,#b0c879)">  
+    <br/>
+    <br/>
+  </section>
+  <footer class="page-footer font-small pt-4" style="background-color: #b0c879; text-align: center">
+      <h4>Contact Us!<br/></h4>
+      Send us an email: colorbuddy@gmail.com
+      <div><br/></div>
+      <div style="opacity: 0.7">© 2019 Copyright: Color Blind Buddy</div>
+      <div><br/></div>
+ </footer>
   </body>
 
 </html>
