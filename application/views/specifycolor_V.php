@@ -5,9 +5,7 @@
   <head>
     <meta charset="utf-8">
 
-          <script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-          <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-          <script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
           <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
           <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -17,25 +15,7 @@
 
   </head>
   <body>
-    <!--
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-<div class="container">
-<a class="navbar-brand" href="#">ColorBlind Buddy</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarResponsive">
-  <ul class="navbar-nav ml-auto">
-    <li class="nav-item active">
-      <a class="nav-link" href="#">Home
-        <span class="sr-only">(current)</span>
-      </a>
-    </li>
-  </ul>
-</div>
-</div>
-</nav>
--->
+
 <section class="content-section text-white text-center" style="background-image: linear-gradient(#7AB3B0, #ddb075); height: 600px">
   <div class="main">
     <div class="jumbotron">
@@ -57,6 +37,13 @@
        </div>
 
 </section>
+<footer class="page-footer font-small pt-4" style="background-color: #b0c879; text-align: center">
+    <h4>Contact Us!<br/></h4>
+    Send us an email: colorbuddy@gmail.com
+    <div><br/></div>
+    <div style="opacity: 0.7">© 2019 Copyright: Color Blind Buddy</div>
+    <div><br/></div>
+</footer>
 
   </body>
 </html>

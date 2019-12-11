@@ -81,7 +81,9 @@
           </span>
           <br/>
           <h4>
+            <a href="<?php echo base_url('') ?>index.php/harmonies">
             <strong>Color Harmony</strong>
+            </a>
           </h4>
           <p class="text-faded mb-0">Great for finding gradient colors!</p>
         </div>
@@ -121,7 +123,7 @@
     </div>
   </section>
   </section>
-  <section style="background-image: linear-gradient(#ddb075,#b0c879)">  
+  <section style="background-image: linear-gradient(#ddb075,#b0c879)">
     <br/>
     <br/>
   </section>
