@@ -64,9 +64,9 @@
           </h4>
           <p class="text-faded mb-0">Check if you're colorbinded or not by answering questions!</p>
         </div>
-        <div class="col-lg-3 col-md-6" id="quizzes">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <img src="<?php echo base_url()?>assets/img/exam.png">
+        <div class="col-lg-3 col-md-6" id="quizzes" >
+          <span class="service-icon rounded-circle mx-auto mb-3" style="margin-top:20px;">
+            <img src="<?php echo base_url()?>assets/img/exam.png" style="margin-bottom:-20px;">
           </span>
           <h4>
           <a style="color:black" href="<?php echo site_url('index.php\quiz\quizdisplay');?>"><strong>Quizzes</strong></a>
@@ -109,15 +109,15 @@
           <p class="text-faded mb-0">We make sure you use the right color of your clothes!</p>
         </div>
         <div class="col-lg-3 col-md-6" id="eyedoctor">
-          <span class="service-icon rounded-circle mx-auto mb-3">
+          <span class="service-icon rounded-circle mx-auto mb-3"  >
           </br>
-            <img src="<?php echo base_url()?>assets/img/location.png">
+            <img src="<?php echo base_url()?>assets/img/location.png" >
           </span>
           <h4>
             <br/>
-            <strong>Eye Doctor Near Me</strong>
+            <strong >Eye Doctor Near Me</strong>
           </h4>
-          <p class="text-faded mb-0">In case you need future examination</p>
+          <p class="text-faded mb-0"">In case you need future examination</p>
         </div>
       </div>
     </div>

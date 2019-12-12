@@ -46,24 +46,13 @@
                   <img src="<?php echo base_url()?>assets/img/colordetect.png">
                 </span>
                 <h4>
-                  <a href="#">
+                  <<a href= "<?php echo base_url('') ?>index.php/harmonies/view_harmoni">
                   <strong>Find a Harmony of Color</strong>
                   </a>
                 </h4>
                 <p class="text-faded mb-0"></p>
               </div>
               <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" id="colorfinder" style="margin-left:150px;">
-                <span class="service-icon rounded-circle mx-auto mb-3">
-                  <img src="<?php echo base_url()?>assets/img/colordetect.png">
-                </span>
-                <h4>
-                  <a href="#">
-                  <strong>Images harmonization</strong>
-                  </a>
-                </h4>
-                <p class="text-faded mb-0"></p>
-              </div>
-              <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" id="apaajadeh">
                 <span class="service-icon rounded-circle mx-auto mb-3">
                   <img src="<?php echo base_url()?>assets/img/read_book.png">
                 </span>
@@ -74,9 +63,7 @@
 
                 </h4>
                 <p class="text-faded mb-0">Find The Color for Your Design</p>
-              </div>
 
-            </div>
 
               </div>
             </div>

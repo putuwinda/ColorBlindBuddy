@@ -23,6 +23,11 @@ class harmonies extends CI_Controller {
       $this->load->view('colorlab_V');
 
   }
+	public function view_harmoni(){
+			$this->load->view('header');
+			$this->load->view('colorharmonizer_V');
+
+	}
 }
 
  ?>
