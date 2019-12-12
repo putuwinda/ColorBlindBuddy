@@ -12,6 +12,7 @@ class articles_C extends CI_Controller {
       $this->load->view('header');
   		$this->load->view('articles_V');
   		$this->load->helper('url');
+			
 
  	}
   public function view_article1(){

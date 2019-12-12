@@ -19,9 +19,11 @@
 	</style>
   </head>
   <body>
-          <section class="content-section text-white text-center" style="background:#808080;">
-          <div class="jumbotron" style="background:black;">
-          <h2 id="title"> Find a Color  </h2>
+          <section class="content-section text-white text-center" style="background-image: linear-gradient(#7AB3B0, #ddb075)">
+          <div class="jumbotron" style="background-image: linear-gradient(#7AB3B0, #ddb075);">
+          <h1 id="title" style="fontawesome"> Find a Color  </h1>
+          <br>
+          <h3> upload your picture and find the colors!</h3>
     </div>
         <div class="row" style="margin-left:150px; margin-right:100px; margin-top:80px;">
         <input id="input" type="file">

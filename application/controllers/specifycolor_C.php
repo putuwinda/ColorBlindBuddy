@@ -11,6 +11,7 @@ class specifycolor_C extends CI_Controller {
   		$this->load->view('specifycolor_V');
   		$this->load->helper('url');
 
+
  	}
 }
 

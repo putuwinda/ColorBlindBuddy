@@ -16,9 +16,9 @@
 
   </head>
   <body>
-  
+
 <!-- Page Content -->
-<div class="container"  style="color-background:white">
+<div class="container" style="background-image: linear-gradient(#7AB3B0, #ddb075)">
 
   <!-- Heading Row -->
   <div class="row align-items-center my-5">
